@@ -23,6 +23,8 @@
     --light-red: #E28997;
     --semi-light-red: #D34F64;
     --red: #BA2E45;
+
+    --card-background: #F6F6F6;
 }
 
 body {
@@ -290,4 +292,25 @@ main {
     align-items: center;
     gap: 2em;
     margin-bottom: 1em;
+}
+
+.testimonials {
+    text-align: center;
+
+}
+
+.testimonials h1 {
+    text-transform: capitalize;
+}
+
+.testimonial_card {
+    background: var(--card-background);
+    border-radius: 24px;
+    padding: 1em 5em;
+}
+
+.testimonial_card img{
+    width: 50%;
+    border-radius: 50%;
+    border-color: var(--light-gray);
 }
