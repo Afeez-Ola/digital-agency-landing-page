@@ -41,11 +41,15 @@ button {
     cursor: pointer;
 }
 
+.header {
+    /* border: 1px solid red; */
+}
+
 header {
     background: var(--white);
     z-index: 999;
     width: 100%;
-    position: fixed;
+    height: 5vh;
 }
 
 header h1 {
@@ -54,7 +58,9 @@ header h1 {
     width: 100%;
     position: relative;
     font-weight: 700;
-    height: 5vh;
+    margin-top: 10px;
+    font-size: 1.5rem;
+
 }
 
 header h1 a {
@@ -66,8 +72,6 @@ header h1 a {
 
 nav {
     width: 100%;
-    top: 100%;
-    position: absolute;
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform ease-in-out 250ms;
@@ -106,11 +110,8 @@ nav a:hover {
 
 .nav_toggle_label {
     position: absolute;
-    top: 0;
+    top: 1.3em;
     right: 1em;
-    display: flex;
-    height: 100%;
-    align-items: center;
 }
 
 .nav_toggle_label span,
@@ -172,3 +173,12 @@ nav a:hover {
         display: none;
     }
 }
+
+main {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+}
+
