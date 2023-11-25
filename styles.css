@@ -308,6 +308,13 @@ main {
     margin: 0.5em auto;
 }
 
+.testimonial_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .testimonial_card {
     background: var(--card-background);
     border-radius: 24px;
@@ -316,6 +323,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2em auto;
 }
 
 .testimonial_card img {
