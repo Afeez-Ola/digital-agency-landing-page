@@ -189,4 +189,7 @@ main {
 
 .left_side h1 {
     text-transform: capitalize;
+    color: var(--semi-grayish-black);
+    font-weight: 700;
+    padding: 1em 0;
 }
