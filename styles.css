@@ -306,11 +306,27 @@ main {
 .testimonial_card {
     background: var(--card-background);
     border-radius: 24px;
-    padding: 1em 5em;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.testimonial_card img{
-    width: 50%;
+.testimonial_card img {
     border-radius: 50%;
     border-color: var(--light-gray);
+}
+
+.testimonial_card_profile {
+    margin: 1em auto;
+}
+
+.testimonial_card_profile p {
+    font-weight: 700;
+}
+
+.testimonial_card p {
+    width: 100%;
+    padding: 1em 0;
 }
