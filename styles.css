@@ -56,12 +56,14 @@ header h1 {
     width: 100%;
     position: relative;
     font-weight: 700;
+    height: 5vh;
 }
 
 header h1 a {
     text-decoration: none;
     color: var(--semi-grayish-black);
     text-transform: uppercase;
+    width: 100%;
 }
 
 nav {
@@ -120,7 +122,7 @@ nav a:hover {
     background: var(--semi-grayish-black);
     display: block;
     height: 2px;
-    width: 2em;
+    width: 1.5em;
     position: relative;
 }
 
@@ -131,11 +133,11 @@ nav a:hover {
 }
 
 .nav_toggle_label span::before {
-    top: 9px;
+    top: 10px;
 }
 
 .nav_toggle_label span::after {
-    bottom: 9px;
+    bottom: 10px;
 }
 
 
