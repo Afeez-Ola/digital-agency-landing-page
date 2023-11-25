@@ -179,7 +179,6 @@ img {
 }
 
 main {
-    /* border: 1px solid red; */
     width: 80%;
     margin: 2em auto;
 }
@@ -226,7 +225,6 @@ main {
 .right_side {
     text-align: center;
     width: 100%;
-    /* margin: 0 auto 2em; */
     margin: auto;
     padding: 1em;
 }
