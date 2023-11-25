@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grayish-black: #313846;
+    --semi-grayish-black: #272D38;
+    --black: #1F242D;
+    --white: #FFFFFF;
+    --light-gray: #DEDCDB;
+    --gray: #B4AFAD;
+    --light-blue: #CFDCED;
+    --semi-light-blue: #8EADD5;
+    --blue: #5A87C2;
+    --light-green: #42D0A8;
+    --green: #2CAF8A;
+    --dark-green: #238C6E;
+    --light-red: #E28997;
+    --semi-light-red: #D34F64;
+    --red: #BA2E45;
+}
+
+body {
+    background: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    background: var(--white);
+    z-index: 999;
+    width: 100%;
+    border: 1px solid red;
+    position: fixed;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--semi-grayish-black);
+    border: 1px solid red;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    top: 100%;
+    position: absolute;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform ease-in-out 250ms;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-top: 0.7em;
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--semi-grayish-black);
+}
+
+nav a:hover {
+    color: var(--semi-light-blue);
+}
+
+.nav_toggle {
+    display: none;
+}
+
+.nav_toggle:checked~nav {
+    transform: scale(1, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+.nav_toggle_label {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    border: 1px solid red;
+}
