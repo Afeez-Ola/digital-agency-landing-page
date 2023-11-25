@@ -136,3 +136,24 @@ nav a:hover {
 .nav_toggle_label span::after {
     bottom: 9px;
 }
+
+
+@media screen and (min-width: 768px) {
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px,3rem) 1rem;
+    }
+
+    header h1{
+        grid-column: 2/3;
+    }
+
+    nav {
+        all: unset;
+    }
+
+    .nav_toggle_label {
+        display: none;
+    }
+}
