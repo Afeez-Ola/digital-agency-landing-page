@@ -232,3 +232,33 @@ main {
 .right_side img {
     margin: 2em auto;
 }
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+}
+
+.sponsor p {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+.companies {
+    width: 100%;
+    padding: 2em 2em;
+    background: var(--light-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.companies img {
+    width: 30%;
+    padding: 0 .5em;
+}
