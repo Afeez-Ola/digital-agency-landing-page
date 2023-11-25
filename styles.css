@@ -175,10 +175,18 @@ nav a:hover {
 }
 
 main {
-    margin-top: 50px;
-    text-align: center;
     border: 1px solid red;
     width: 80%;
-    margin: auto;
+    margin: 5em auto;
 }
 
+.left_side {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 2em 1em;
+}
+
+.left_side h1 {
+    text-transform: capitalize;
+}
