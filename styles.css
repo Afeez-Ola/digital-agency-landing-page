@@ -142,11 +142,15 @@ nav a:hover {
 
     header{
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px,3rem) 1rem;
+        grid-template-columns: 1fr auto minmax(600px,3fr) 1fr;
     }
 
     header h1{
         grid-column: 2/3;
+        width: fit-content;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
     }
 
     nav {
