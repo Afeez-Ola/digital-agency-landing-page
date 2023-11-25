@@ -281,3 +281,13 @@ main {
     gap: 2em;
     margin-bottom: 1em;
 }
+
+.left_layer_three {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 1em;
+}
