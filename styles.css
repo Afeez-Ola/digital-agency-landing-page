@@ -45,14 +45,12 @@ header {
     background: var(--white);
     z-index: 999;
     width: 100%;
-    border: 1px solid red;
     position: fixed;
 }
 
 header h1 {
     text-align: center;
     color: var(--semi-grayish-black);
-    border: 1px solid red;
     width: 100%;
     position: relative;
     font-weight: 700;
@@ -113,7 +111,6 @@ nav a:hover {
     display: flex;
     height: 100%;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 .nav_toggle_label span,
