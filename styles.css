@@ -183,7 +183,7 @@ main {
 .left_side {
     text-align: center;
     width: 100%;
-    margin: auto;
+    margin: 0 auto 2em;
     padding: 2em 1em;
 }
 
