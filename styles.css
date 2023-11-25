@@ -140,12 +140,12 @@ nav a:hover {
 
 @media screen and (min-width: 768px) {
 
-    header{
+    header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px,3fr) 1fr;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
     }
 
-    header h1{
+    header h1 {
         grid-column: 2/3;
         width: fit-content;
         font-size: 2rem;
@@ -155,6 +155,17 @@ nav a:hover {
 
     nav {
         all: unset;
+        grid-column: 3/4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        position: relative;
+        display: flex;
+        bottom: .3em;
+        align-items: center;
     }
 
     .nav_toggle_label {
