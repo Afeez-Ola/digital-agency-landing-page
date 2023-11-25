@@ -184,11 +184,18 @@ main {
     margin: 2em auto;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .left_side {
     text-align: center;
     width: 100%;
-    margin: 0 auto 2em;
-    padding: 2em 1em;
+    margin: auto;
+    padding: 1em;
 }
 
 .left_side h1 {
@@ -214,6 +221,16 @@ main {
     color: var(--white);
 }
 
-.left_side img {
+
+
+.right_side {
+    text-align: center;
+    width: 100%;
+    /* margin: 0 auto 2em; */
+    margin: auto;
+    padding: 1em;
+}
+
+.right_side img {
     margin: 2em auto;
 }
