@@ -296,11 +296,16 @@ main {
 
 .testimonials {
     text-align: center;
+}
+
+.testimonials h3 {
+    font-weight: 500;
 
 }
 
 .testimonials h1 {
     text-transform: capitalize;
+    margin: 0.5em auto;
 }
 
 .testimonial_card {
@@ -323,7 +328,7 @@ main {
 }
 
 .testimonial_card_profile p {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .testimonial_card p {
