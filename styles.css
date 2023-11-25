@@ -324,6 +324,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 2em auto;
+    max-width: 400px;
 }
 
 .testimonial_card img {
@@ -343,3 +344,4 @@ main {
     width: 100%;
     padding: 1em 0;
 }
+
