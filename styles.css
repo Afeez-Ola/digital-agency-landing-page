@@ -427,4 +427,20 @@ footer {
     .cta_profile{
         text-align: left;
     }
+
+    .testimonial_cards{
+        flex-direction: row;
+    }
+    .testimonial_card{
+            justify-content: space-around;
+            margin: auto 1em;
+            width: 100%;
+            max-width: unset;
+            padding: 1em 0;
+            text-align: center;
+    }
+
+    .testimonial_card p{
+        font-size: 0.75rem;
+    }
 }
