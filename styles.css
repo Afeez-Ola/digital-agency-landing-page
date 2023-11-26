@@ -212,7 +212,8 @@ main {
     text-transform: capitalize;
 }
 
-.left_side button, .cta button {
+.left_side button,
+.cta button {
     padding: 4px 10px;
     text-transform: uppercase;
     font-size: 1rem;
@@ -221,7 +222,6 @@ main {
     background: var(--semi-light-blue);
     color: var(--white);
 }
-
 
 
 .right_side {
@@ -315,7 +315,8 @@ main {
     align-items: center;
 }
 
-.testimonial_card, .cta {
+.testimonial_card,
+.cta {
     background: var(--card-background);
     border-radius: 24px;
     padding: 1em 2em;
@@ -332,7 +333,8 @@ main {
     border-color: var(--light-gray);
 }
 
-.testimonial_card_profile,.cta_profile {
+.testimonial_card_profile,
+.cta_profile {
     margin: 1em auto;
 }
 
@@ -344,8 +346,3 @@ main {
     width: 100%;
     padding: 1em 0;
 }
-
-
-
-
-
