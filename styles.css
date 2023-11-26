@@ -315,8 +315,7 @@ main {
     align-items: center;
 }
 
-.testimonial_card,
-.cta {
+.testimonial_card {
     background: var(--card-background);
     border-radius: 24px;
     padding: 1em 2em;
@@ -347,12 +346,24 @@ main {
     padding: 1em 0;
 }
 
-.cta_profile{
+.cta {
+    background: var(--card-background);
+    border-radius: 24px;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 2em auto;
+    gap: 3em;
 }
 
 .cta button {
     margin: 1em auto;
+}
+
+.second {
+    display: none;
 }
 
 footer {
@@ -402,5 +413,18 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
+    }
+
+    .cta {
+        flex-direction: row-reverse;
+    }
+
+    .second {
+        display: block;
+        width: 100%;
+    }
+
+    .cta_profile{
+        text-align: left;
     }
 }
