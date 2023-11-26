@@ -332,7 +332,7 @@ main {
     border-color: var(--light-gray);
 }
 
-.testimonial_card_profile {
+.testimonial_card_profile,.cta_profile {
     margin: 1em auto;
 }
 
@@ -344,4 +344,6 @@ main {
     width: 100%;
     padding: 1em 0;
 }
+
+
 
