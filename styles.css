@@ -315,7 +315,7 @@ main {
     align-items: center;
 }
 
-.testimonial_card {
+.testimonial_card, .cta {
     background: var(--card-background);
     border-radius: 24px;
     padding: 1em 2em;
