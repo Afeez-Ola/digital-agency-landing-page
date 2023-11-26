@@ -385,3 +385,9 @@ footer {
 .footer_links p{
     margin: 0.75em;
 }
+
+.footer_link{
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1em;
+}
