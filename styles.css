@@ -353,9 +353,9 @@ main {
 
 footer {
     background: var(--card-background);
-}      
+}
 
-.footer_container{
+.footer_container {
     padding: 5em 0 2em;
     display: flex;
     justify-content: center;
@@ -363,7 +363,25 @@ footer {
     text-align: center;
 }
 
+.footer_department {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5em;
+    margin: 2.5em auto;
+}
 
+.footer_header{
+    font-size: 1rem;
+    font-weight: 700;
+}
 
+.footer_links{
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+}
 
-
+.footer_links p{
+    margin: 0.75em;
+}
