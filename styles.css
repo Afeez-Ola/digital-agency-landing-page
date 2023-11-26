@@ -424,23 +424,37 @@ footer {
         width: 100%;
     }
 
-    .cta_profile{
+    .cta_profile {
         text-align: left;
     }
 
-    .testimonial_cards{
+    .testimonial_cards {
         flex-direction: row;
     }
-    .testimonial_card{
-            justify-content: space-around;
-            margin: auto 1em;
-            width: 100%;
-            max-width: unset;
-            padding: 1em 0;
-            text-align: center;
+
+    .testimonial_card {
+        justify-content: space-around;
+        margin: auto 1em;
+        width: 100%;
+        max-width: unset;
+        padding: 1em 0;
+        text-align: center;
     }
 
-    .testimonial_card p{
+    .testimonial_card p {
         font-size: 0.75rem;
+    }
+
+    .bottom_container {
+        flex-direction: row-reverse;
+    }
+
+    .left_layer_three {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .left_layer_three img {
+        transform: rotate(-90deg);
     }
 }
