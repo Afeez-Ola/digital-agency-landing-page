@@ -494,7 +494,7 @@ footer {
         height: 60%;
     }
 
-    .left_side h1{
+    .left_side h1 {
         font-size: 3em;
         width: 90%;
     }
@@ -506,25 +506,45 @@ footer {
         text-align: left;
     }
 
-    img{
+    .bottom_left_side img {
+        width: auto;
+        margin: 0 auto;
+        height: 60%;
+    }
+
+    .bottom_right_side h1 {
+        text-transform: capitalize;
+        font-size: 3em;
+        width: 90%;
+    }
+
+    .bottom_right_side p {
+        padding: unset;
+        margin: 1em 0;
+        width: 70%;
+        text-align: left;
+    }
+
+    img {
         width: auto;
         height: 50%;
     }
 
-    main{
+    main {
         width: 60%;
     }
 
-    .sponsor,.companies{
+    .sponsor,
+    .companies {
         justify-content: space-around;
         align-items: center;
     }
 
-    .companies{
+    .companies {
         padding: 0.5em 0.5em;
     }
 
-    .companies img{
+    .companies img {
         width: 15%;
     }
 
