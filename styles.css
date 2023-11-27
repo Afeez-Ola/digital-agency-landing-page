@@ -412,8 +412,12 @@ footer {
 @media screen and (min-width: 768px) {
     .footer_container {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 100%;
+    }
+
+    .footer_links{
+        text-align: left;
     }
 
     .cta {
@@ -483,11 +487,6 @@ footer {
         /* gap: 1em; */
     }
 
-    .left_layer_three p,
-    .bottom_right_side p {
-        font-size: 1rem;
-        width: 90%;
-    }
 
     .left_layer_three img,
     .bottom_right_side img {
@@ -557,7 +556,7 @@ footer {
     .left_layer_three p {
         padding: unset;
         margin: 1em 0;
-        width: 60%;
+        width: 80%;
         text-align: left;
         font-size: 1.4rem;
         line-height: 1.1em;
