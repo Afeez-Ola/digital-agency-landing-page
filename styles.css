@@ -416,7 +416,7 @@ footer {
         width: 100%;
     }
 
-    .footer_links{
+    .footer_links, .footer_header{
         text-align: left;
     }
 
