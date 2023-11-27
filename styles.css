@@ -450,23 +450,26 @@ footer {
         justify-content: space-between;
     }
 
-    .right_layer_three{
+    .right_layer_three {
         width: 100%;
     }
 
     .left_layer_three {
+        width: 100%;
         text-align: left;
         align-items: flex-start;
         gap: 1em;
     }
-    .left_layer_three p{
+
+    .left_layer_three p {
         font-size: 0.85rem;
     }
 
     .left_layer_three img {
         transform: rotate(-90deg);
     }
-    .right_layer_three img{
+
+    .right_layer_three img {
         width: 100%;
     }
 }
