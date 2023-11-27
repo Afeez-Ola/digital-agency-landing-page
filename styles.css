@@ -452,9 +452,16 @@ footer {
     .left_layer_three {
         text-align: left;
         align-items: flex-start;
+        gap: 1em;
+    }
+    .left_layer_three p{
+        font-size: 0.85rem;
     }
 
     .left_layer_three img {
         transform: rotate(-90deg);
+    }
+    .right_layer_three img{
+        width: 100%;
     }
 }
