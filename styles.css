@@ -447,6 +447,11 @@ footer {
 
     .bottom_container {
         flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .right_layer_three{
+        width: 100%;
     }
 
     .left_layer_three {
