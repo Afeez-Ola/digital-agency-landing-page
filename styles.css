@@ -415,6 +415,8 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
+        min-height: 0;
+        min-width: 0;
     }
 
     .footer_links,
@@ -429,11 +431,10 @@ footer {
     }
 
     .second {
-        /* display: block; */
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin: auto;
+        display: block;
+        /* justify-content: center; */
+        /* width: 100%;
+        margin: auto; */
     }
 
     .second img {
@@ -441,12 +442,22 @@ footer {
     }
 
     .cta_profile {
+        height: 100%;
         text-align: left;
         width: 100%;
+
     }
 
     .testimonial_cards {
         flex-direction: row;
+        margin: 2em auto;
+        min-width: 0;
+
+    }
+
+    .testimonials {
+        margin: 2em auto;
+        min-width: 0;
     }
 
     .testimonial_card {
