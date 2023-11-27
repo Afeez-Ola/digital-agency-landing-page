@@ -369,6 +369,7 @@ main {
 
 footer {
     background: var(--card-background);
+    width: 100%;
 }
 
 .footer_container {
@@ -416,16 +417,19 @@ footer {
         width: 100%;
     }
 
-    .footer_links, .footer_header{
+    .footer_links,
+    .footer_header {
         text-align: left;
     }
 
     .cta {
         flex-direction: row-reverse;
+        margin: auto;
+        gap: 0;
     }
 
     .second {
-        display: block;
+        /* display: block; */
         display: flex;
         justify-content: center;
         width: 100%;
@@ -438,6 +442,7 @@ footer {
 
     .cta_profile {
         text-align: left;
+        width: 100%;
     }
 
     .testimonial_cards {
