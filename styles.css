@@ -102,8 +102,13 @@ nav a:hover {
 }
 
 .nav_toggle:checked~nav {
+    background: var(--light-blue);
     transform: scale(1, 1);
     transition: transform ease-in-out 250ms;
+}
+
+.nav_toggle:checked~nav a:hover {
+    color: var(--white);
 }
 
 .nav_toggle_label {
