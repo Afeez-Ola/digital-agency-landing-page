@@ -423,30 +423,39 @@ footer {
         text-align: left;
     }
 
+    .footer_links p {
+        margin: 0.75rem 0;
+    }
+
     .cta {
-        flex: 1 1 0;
         flex-direction: row-reverse;
         margin: auto;
         gap: 0;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 3em auto;
     }
 
     .second {
-        display: block;
+        display: unset;
         /* justify-content: center; */
         /* width: 100%;
         margin: auto; */
     }
 
-    .second img {
+    /* .second img {
         width: auto;
-        height: 60%;
         margin: auto;
-    }
+    } */
 
     .cta_profile {
         /* height: 100%; */
         text-align: left;
         width: 100%;
+        width: 60%;
+        text-align: left;
+        align-items: flex-start;
 
     }
 
@@ -557,7 +566,8 @@ footer {
     }
 
     .bottom_left_side img,
-    .right_layer_three img {
+    .right_layer_three img,
+    .second img {
         width: auto;
 
         height: 60%;
