@@ -28,7 +28,6 @@
 }
 
 body {
-    /* background: white; */
     -webkit-font-smoothing: antialiased;
 }
 
@@ -43,9 +42,6 @@ button {
     cursor: pointer;
 }
 
-.header {
-    /* border: 1px solid red; */
-}
 
 header {
     background: var(--white);
