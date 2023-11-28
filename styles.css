@@ -439,18 +439,10 @@ footer {
 
     .second {
         display: unset;
-        /* justify-content: center; */
-        /* width: 100%;
-        margin: auto; */
     }
 
-    /* .second img {
-        width: auto;
-        margin: auto;
-    } */
 
     .cta_profile {
-        /* height: 100%; */
         text-align: left;
         width: 100%;
         width: 60%;
@@ -489,7 +481,6 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 3em auto;
-        /* gap: 1em; */
     }
 
     #layer_two {
@@ -511,7 +502,6 @@ footer {
         width: 60%;
         text-align: left;
         align-items: flex-start;
-        /* gap: 1em; */
     }
 
 
